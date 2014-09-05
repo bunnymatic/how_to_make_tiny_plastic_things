@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>how to make tiny plastic things - lunch talk 2014-09-09</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="">
+		<meta name="author" content="Mr Rogers">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/overrides.css">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -43,15 +44,99 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>How to make tiny plastic things</h1>
+					<h3>A limited survey of 3D printers and cheap 3D drawing software</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>by Mr Rogers</small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
+					<h2>Comparison Shoppers</h2>
+          <table>
+            <thead>
+              <th>
+                Printer
+              </th>
+              <th>
+                Cost
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Form1+
+                </td>
+                <td>
+                  $3299
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Makerbot Replicator 5th Gen
+                </td>
+                <td>
+                  $2899
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Makerbot Replicator Mini
+                </td>
+                <td>
+                  $1375
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  PrintrBot
+                </td>
+                <td>
+                  $349
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
+        <section>
+          <h2>Comparison Shoppers</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Volume (mm)</th>
+                <th>Resolution (&micro;)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Form1+</td>
+                <td class="nowrap">125 x 125 x 165</td>
+                <td>25/50/100</td>
+              </tr>
+              <tr>
+                <td>Replicator</td>
+                <td class="nowrap">252 x 199 x 150</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Replicator Mini</td>
+                <td class="nowrap">100 x 100 x 125</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>PrintrBot</td>
+                <td class="nowrap">100 x 100 x 100</td>
+                <td>100</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+              
 					<p>
 						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
 						support for CSS 3D transforms to see it in its full glory.
