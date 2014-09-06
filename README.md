@@ -1,6 +1,6 @@
 # How to make tiny plastic things
 
-go here [https://bunnymatic.github.io/how_to_make_tiny_plastic_things](https://
+go here [https://bunnymatic.github.io/how_to_make_tiny_plastic_things](https://bunnymatic.github.io/how_to_make_tiny_plastic_things)
 
 
 # Built on Reveal.js - reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
