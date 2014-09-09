@@ -1,3 +1,7 @@
 .nowrap {
   white-space: nowrap;
 }
+
+.reveal xsmall {
+  font-size: 0.3em;
+}
